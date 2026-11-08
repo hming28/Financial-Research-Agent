@@ -1,0 +1,50 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build and production outputs
+dist/
+dist-ssr/
+build/
+*.local
+
+# Vite and compiler caches
+.vite/
+.vite-temp/
+*.tsbuildinfo
+
+# Runtime logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+run_logs/*.jsonl
+!run_logs/.gitkeep
+
+# Runtime workspace artifacts & generated media
+workspace/artifacts/*
+!workspace/artifacts/.gitkeep
+*.wav
+
+# IDE & Editor configs
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating System files
+.DS_Store
+Thumbs.db
